@@ -5,13 +5,12 @@ const CardList = ({ dragons }) => {
         {dragons.map((d) => (
           <div key={d.id} className="col d-flex justify-content-center">
             <div className="card h-100 text-center" style={{ maxWidth: '600px', width: '100%' }}>
-              {/* ratio 4x3 + object-fit-contain  ⇒ se ve la foto entera */}
               <div className="ratio ratio-4x3">
                 <img
                   src={d.img}
                   alt={d.name}
                   className="card-img-top object-fit-contain"
-                  style={{ padding: '0.58rem' }}   // opcional: margen interno
+                  style={{ padding: '0.58rem' }}
                 />
               </div>
 
