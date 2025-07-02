@@ -15,6 +15,8 @@ const Header = () => {
                             <NavLink to="/Uso-Api-Rick-and-Morty" className="nav-link active" aria-current="page">API Rick and Morty</NavLink>
                             <NavLink to="/dragon-ball-api" className="nav-link">DRAGON BALL API</NavLink>
                             <NavLink to="/pokemon" className="nav-link">API Pokemon</NavLink>
+                            <NavLink to="/fakestore" className="nav-link">API Fakestore</NavLink>
+
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import { DragonPage } from './pages/DragonPage'
 import { Recursos } from './pages/Recursos'
 import { PokemonPage } from './pages/PokemonPage'
+import { FakestorePage } from './pages/FakestorePage'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Uso-Api-Rick-and-Morty" element={<RickandmortyPage />} />
         <Route path="/dragon-ball-api" element={<DragonPage />} />
         <Route path="/pokemon" element={<PokemonPage />} />
+        <Route path="/fakestore" element={<FakestorePage />} />
       </Routes>
 
 
